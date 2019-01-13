@@ -23,8 +23,9 @@ if (isDevMode) enableLiveReload();
 const createWindow = async () => {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 900,
-    height: 700,
+    width: 1200,
+    height: 750,
+    resizable: false,
     title: 'mySpace',
     icon: path.join(__dirname, 'img/rocket.png'),
   });

@@ -9,7 +9,6 @@
 </template>
 <script>
 	import spaceImage from "./image.vue";
-	import electronDl from "electron-dl";
 
 	export default {
 		name: "images",
