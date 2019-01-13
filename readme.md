@@ -6,7 +6,7 @@
 - Get yourself an electron-forge - you will need Yarn for this: `yarn global add electron-forge`
 - Install required dependencies - you will need Yarn for this: `yarn`
 - Run with `electron-forge start` or just `yarn start`
-- All Vue files are in source directory, it's a simple project - you won't be able to get lost
+- All Vue files are in `src` directory, it's a simple project - you won't be able to get lost
 
 ## To play with
 Check releases tab
