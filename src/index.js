@@ -25,7 +25,7 @@ const createWindow = async () => {
   mainWindow = new BrowserWindow({
     width: 1200,
     height: 750,
-    resizable: false,
+    resizable: true,
     title: 'mySpace',
     icon: path.join(__dirname, 'img/rocket.png'),
   });
